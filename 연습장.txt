@@ -1,0 +1,24 @@
+x = 10
+y = 20
+ 
+if x == 10 and y == 20:     # x가 10이면서 y가 20일 때
+    print('참')
+else:
+    print('거짓')
+
+x = int(input())
+y = int(input())
+if 0 < x < 20 and 15 < y < 25:
+    print('int')
+    
+#y = int(input())
+#if 15 < y < 25:
+    #print('y는 x보다 큽니다.')
+
+x = int(input())
+
+if 11 < x < 20:
+    print('11~20')
+elif 21 < x < 30:
+    print('21~30')
+    
